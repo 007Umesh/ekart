@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity">
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Add New Product"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/fruits"
+            android:layout_width="82dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/fruits" />
+
+        <ImageView
+            android:id="@+id/vegetables"
+            android:layout_width="80dp"
+            android:layout_height="96dp"
+            android:src="@drawable/vegetables" />
+
+        <ImageView
+            android:id="@+id/eggs"
+            android:layout_width="92dp"
+            android:layout_height="83dp"
+            android:src="@drawable/eggs" />
+
+        <ImageView
+            android:id="@+id/milk"
+            android:layout_width="83dp"
+            android:layout_height="85dp"
+            android:src="@drawable/milk" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/grains"
+            android:layout_width="82dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/grains" />
+
+        <ImageView
+            android:id="@+id/millets"
+            android:layout_width="80dp"
+            android:layout_height="96dp"
+            android:src="@drawable/millets" />
+
+        <ImageView
+            android:id="@+id/pulses"
+            android:layout_width="92dp"
+            android:layout_height="83dp"
+            android:src="@drawable/pulses" />
+
+        <ImageView
+            android:id="@+id/flowers"
+            android:layout_width="83dp"
+            android:layout_height="85dp"
+            android:src="@drawable/flowers" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/spices"
+            android:layout_width="82dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/spices" />
+
+        <ImageView
+            android:id="@+id/flour"
+            android:layout_width="80dp"
+            android:layout_height="96dp"
+            android:src="@drawable/flour" />
+
+        <ImageView
+            android:id="@+id/dailyproducts"
+            android:layout_width="92dp"
+            android:layout_height="83dp"
+            android:src="@drawable/dailyproducts" />
+
+        <ImageView
+            android:id="@+id/others"
+            android:layout_width="83dp"
+            android:layout_height="85dp"
+            android:src="@drawable/others" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/check_orders_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/admin_logout_btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Check New Orders"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/admin_logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Logout"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        />
+</RelativeLayout>

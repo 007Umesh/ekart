@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "707063890329",
+    "project_id": "organic-mart-f948a",
+    "storage_bucket": "organic-mart-f948a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707063890329:android:2fe6b8ef95fa0d6acc9308",
+        "android_client_info": {
+          "package_name": "com.appp.shopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707063890329-nkt2atbtv29vnhfub7au5cosncne2mkp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnhwUomp2SlG_CmACGzfogXTqX5HGroJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707063890329-nkt2atbtv29vnhfub7au5cosncne2mkp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
